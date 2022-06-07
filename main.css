@@ -1,0 +1,30 @@
+
+/* SVG should be hidden initially so a smooth appearance occurs when scrolled into view */
+.svg {
+    visibility: hidden;
+}
+
+/* This class will be added to the svg element when scrolled into view */
+.svg-animate {
+	stroke-width:1;
+	animation: quoteStroke 3s ;
+    stroke:black !important;
+    stroke-dasharray:100%;
+    stroke-dashoffset:0;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+/* Keyframe that  will animate svg elements  */
+@keyframes quoteStroke {
+	0%   {
+		fill: none; 
+		stroke-dashoffset: 100%;  
+	}
+	100% {
+		 fill : none;  
+		 stroke-dashoffset: 0%;  ;
+	}
+} 
+
+
