@@ -12,7 +12,7 @@ There are two files here that we will use to create this animation effect. The j
 
 * **Copy the code found here in main.js to the custom code section on the  Webflow page where you would like the svg elements to be animated. Add it into a <script> </script> tag.** 
 * **Copy the code found here in main.css to the custom code section on the  Webflow page where you would like the svg elements to be animated. Add it into a <style> </style> tag.**
-* **Add the class '.svg' to the svg text element/s you want to animate. (We have used the class '.svg', but you can name this class anything)**
+* **Add the class '.svg' to the svg text element/s you want to animate. (We have used the class '.svg', but you can name this class anything. If you decide to use another class name, this must also be changed from '.svg' as seen in the main.css file)**
 
 
 
