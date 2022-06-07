@@ -1,2 +1,3 @@
 # Webflow-svg-text-animation
-Custom code snippet to animate SVG text on Webflow. 
+
+Custom code snippets to animate SVG text on Webflow when scrolled into view. 
