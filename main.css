@@ -18,12 +18,14 @@
 /* Keyframe that  will animate svg elements  */
 @keyframes animateSvg {
 	0%   {
-		fill: none; 
-		stroke-dashoffset: 100%;  
+		fill: rgba(0, 32, 41, 0); stroke: #002029;
+		stroke-dashoffset: 100%;  stroke-width: 2;
 	}
+	70%  {fill: rgba(0, 32, 41, 0); stroke: #002029; }
+	80%  {fill: rgba(0, 32, 41, 0); stroke: #002029;  }
 	100% {
-		 fill : none;  
-		 stroke-dashoffset: 0%;  ;
+		 fill : rgba(0, 32, 41, 1); stroke: #002029; 
+		stroke-dashoffset: 0%;  ;
 	}
 } 
 
