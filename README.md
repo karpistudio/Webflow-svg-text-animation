@@ -1,6 +1,6 @@
 # Webflow-svg-text-animation
 
-Custom code snippets to animate SVG text on Webflow by giving it a 'drawn in' effect when scrolled into view. This code can be used on any SVG element. In this case, we are using it on a <text></text> element that is nested inside an <svg></svg> element. 
+Custom code snippets to animate SVG text on Webflow by giving it a 'drawn in' effect when scrolled into view. This code can be used on any SVG element. In this case, we are using it on a text element that is nested inside an <svg></svg> element. 
 
 We are using an Intersection Observer to detect when an element is scrolled into view, and then animating the specified element with a stroke animation by adding a class to the element. 
 
